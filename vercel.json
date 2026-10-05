@@ -1,8 +1,6 @@
 {
-  "name": "handoff",
-  "version": 2,
-  "public": true,
-  "builds": [],
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
   "routes": [
     {
       "src": "/(.*)",
