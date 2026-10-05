@@ -1,0 +1,36 @@
+{
+  "name": "handoff",
+  "version": "1.0.0",
+  "description": "Transition de service simplifiée pour petites structures",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "npx http-server",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod"
+  },
+  "keywords": [
+    "handoff",
+    "transition",
+    "management",
+    "small-business",
+    "organization"
+  ],
+  "author": "Ton Nom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TON_USERNAME/handoff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TON_USERNAME/handoff/issues"
+  },
+  "homepage": "https://github.com/TON_USERNAME/handoff#readme",
+  "devDependencies": {
+    "vercel": "latest"
+  },
+  "engines": {
+    "node": "18.x || 20.x"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "handoff",
+  "version": 2,
+  "public": true,
+  "builds": [],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
